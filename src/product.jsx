@@ -1,3 +1,11 @@
+// product.jsx
+// ------------
+// Central data module for the sample product. The object defined here is
+// imported by all of the individual display components (Name, Price,
+// Description, Image) as well as by `App.jsx` for the greeting image.
+// Keeping the data in a separate file keeps the components themselves very
+// small and makes it easy to swap out or expand the product information later.
+
 const product = {
   name: 'Sony wH wireless headphones',
   price: 150,

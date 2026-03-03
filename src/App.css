@@ -1,3 +1,12 @@
+/*
+ * App.css
+ * ------
+ * Application-specific styling for the product card demo. Most of the
+ * classes below correspond to components in the JSX (e.g. `.product-card`,
+ * `.product-image`, `.greeting`). The file also contains a few overrides and
+ * helper utilities used in the layout.
+ */
+
 #root {
   max-width: 1280px;
   margin: 0 auto;

@@ -1,3 +1,11 @@
+// App.jsx
+// ------------
+// Root component of the demo application. It composes the smaller product
+// display components (Name, Price, Description, Image) inside a
+// `react-bootstrap` <Card> and handles a trivial greeting message which
+// conditionally shows an image if a first name is supplied. The product data
+// is pulled from `src/product.jsx`.
+
 import React from 'react'
 import './App.css'
 import { Container, Card, Button, Row, Col } from 'react-bootstrap'
@@ -7,6 +15,7 @@ import Description from './components/Description'
 import Image from './components/Image'
 import product from './product'
 
+// change this value to test the conditional rendering of the greeting
 const firstName = 'Hosea'
 
 export default function App() {
